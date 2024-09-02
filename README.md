@@ -9,7 +9,7 @@
 <h5>Using Anaconda</h5>
   <ul>
     <li>Download Anaconda from <a href="https://www.anaconda.com/">https://www.anaconda.com/</a> and install it</li>
-    <li>Clone the GitHub repository by using this link: <code>https://github.com/Faisalse/Intent_Aware_Recomm_Systems.git</code></li>
+    <li>Clone the GitHub repository by using this link: <code>https://github.com/Faisalse/DGCF.git</code></li>
     <li>Open the Anaconda command prompt</li>
     <li>Move into the <b>DGCF</b> directory</li>
     <li>Run this command to create virtual environment: <code>conda create --name DGCF_env python=3.6</code></li>
