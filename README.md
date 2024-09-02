@@ -4,8 +4,6 @@
 
 </head>
 <body>
-<h2>Intent Aware Recommender Systems</h2>
-
 <h2>Installation guide</h2>  
 
 <h5>Using Anaconda</h5>
@@ -20,12 +18,9 @@
   </ul>
 </p>
 
-<h2>Follow these steps to reproduce the results for Intent Aware and Non-Intent Aware Recommender Systems</h2>
+<h3>Follow these steps to reproduce the results for DGCF and baseline models</h3>
 
-
-<h5>DGCF and baseline models</h5>
 <ul>
-
 <li>Run this command to reproduce the experiments for the DGCF on the Yelp2018 dataset: <code>python run_experiments_for_DGCF_algorithm.py --dataset yelp2018</code>  </li>
 
 <li>Run this command to reproduce the experiments for the baseline models on the Yelp2018 dataset: <code>python run_experiments_DGCF_baseline_algorithms.py --dataset yelp2018</code>  </li>
