@@ -5,63 +5,7 @@
 </head>
 <body>
 <h2>Intent Aware Recommender Systems</h2>
-<p align="center">
-  <img src="intentAware.webp" width="300", title="Intent Aware Recommender Systems">
-  
-</p>
 
-
-<h3>Introduction</h3>
-<p align="justify">This reproducibility package was prepared for the paper titled "Performance Comparison of Intent Aware and Non-Intent Aware Recommender Systems" and submitted to the ABC.  The results reported in this paper were achieved with the help of the codes, which were shared by the original authors of the selected articles. For the implementation of baseline models, we utilized the session-rec and RecSys2019_DeepLearning_Evaluation  frameworks. These frameworks include the state-of-the-art baseline models for session based and top-n recommender systems. More information about the session-rec and RecSys2019_DeepLearning_Evaluation frameworks can be found by following the given links. </p>
-<ul>
-  <li><a href="https://rn5l.github.io/session-rec/index.html" target="_blank">Session rec framework</a></li>
-  <li><a href="https://github.com/MaurizioFD/RecSys2019_DeepLearning_Evaluation.git" target="_blank"> RecSys2019_DeepLearning_Evaluation  framework </a></li>
-</ul>
-<h5>Selected articles</h5>
-
-<ul>
-  <li>STAMP: Short-Term Attention/Memory Priority Model for Session-based Recommendation (KDD'2018)</li>
-  <li>Neural Attentive Session-based Recommendation (SIGIR'2018)</li>
-  <li>TAGNN: Target Attentive Graph Neural Networks for Session-based Recommendation (SIGIR'2020)</li>
-  <li>GCE-GNN: Global Context Enhanced Graph Neural Networks for Session-based Recommendation (SIGIR'20)</li>
-  <li>Enhancing Hypergraph Neural Networks with Intent Disentanglement for Session-based Recommendation (SIGIR'2022)</li>
-  <li>Dynamic Intent Aware Iterative Denoising Network for Session-based Recommendation (Journal: Information Processing & Management'2022 - IF: 7.4)</li>  
-  <li>Disentangled Graph Collaborative Filtering (SIGIR'2020)</li>
-  <li>Learning Intents behind Interactions with Knowledge Graph for Recommendation (WWW'2021) </li>
-  <li>Intent Disentanglement and Feature Self-Supervision for Novel Recommendation (Journal: IEEE Transactions on Knowledge and Data Engineering'2022 - IF: 8.9) </li>
-
-</ul>
-<h5>Required libraries to run the framework</h5>
-<ul>
-  <li>Anaconda 4.X (Python 3.8 or higher)</li>
-  <li>numpy</li>
-  <li>pandas</li>
-  <li>torch</li>
-  <li>torchvision</li>
-  <li>torch_geometric</li>
-  <li>pyg_lib</li>
-  <li>torch-scatter</li>
-  <li>torch-sparse</li>
-  <li>torch-cluster</li>
-  <li>torch-spline-conv</li>
-  <li>prettytable</li>
-  <li>python-dateutil</li>
-  <li>nltk</li>
-  <li>scipy</li>
-  <li>pytz</li>
-  <li>certifi</li>
-  <li>pyyaml</li>
-  <li>scikit-learn</li>
-  <li>six</li>
-  <li>psutil</li>
-  <li>pympler</li>
-  <li>Scikit-optimize</li>
-  <li>tables</li>
-  <li>scikit-optimize</li>
-  <li>tqdm</li>
-  <li>dill</li>
-  <li>numba</li>
-</ul>
 <h2>Installation guide</h2>  
 <p>This is how the framework can be downloaded and configured to run the experiments</p>
 <h5>Using Docker</h5>
