@@ -14,7 +14,7 @@
     <li>Move into the <b>DGCF</b> directory</li>
     <li>Run this command to create virtual environment: <code>conda create --name DGCF_env python=3.6</code></li>
     <li>Run this command to activate the virtual environment: <code>conda activate DGCF_env</code></li>
-    <li>Run this command to install the required libraries for CPU: <code>pip install -r requirements_cpu.txt</code></li>
+    <li>Run this command to install the required libraries for CPU: <code>pip install -r requirements.txt</code></li>
   </ul>
 </p>
 
